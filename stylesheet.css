@@ -1,5 +1,4 @@
 ﻿body {
-    background-color: aliceblue;
 }
 
 .fa {
@@ -9,8 +8,10 @@
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    margin-top:20px;
     border-radius: 2px;
 }
+
 .fa:hover {
     opacity: 0.7;
 }
@@ -34,4 +35,78 @@
 .fa-google {
     background: #dd4b39;
     color: white;
+}
+
+.small-title {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size:32px;
+    font-weight:700;
+    margin-bottom:0;
+    line-height:1.25;
+    padding:12px;
+    
+}
+.large-title {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom:1em;
+    padding-left:10px;
+}
+
+
+.profile-pic {
+   width:100px;
+   height:100px;
+   margin-right:2em;
+   margin-bottom:6em;
+}
+
+.col-effect {
+    border: 2px solid white;
+  
+}
+    .col-effect:hover {
+       
+        border: 2px solid black;
+        border-style:dotted;
+    }
+
+.paragraph-profile {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #525257;
+    margin-top:1em;
+    width:330px;
+}
+.paragraph {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #525257;
+    width: 330px;
+}
+
+.project-title {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0.25em;
+}
+.project-overhead {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing:1px;
+    margin-bottom:0;
+    font-weight: 400;
+    opacity:0.66;
+    color: #3C3C3E;
+}
+
+.project-pic {
+    width: 70px;
+    height: 110px;
+    margin-right: 1em;
+    margin-bottom: 4em;
 }
