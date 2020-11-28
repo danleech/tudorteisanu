@@ -1,15 +1,19 @@
 ﻿body {
+    transition: background 1s ease;
+    background-color: #1C1818;
 }
 
 .fa {
-    padding: 15px;
-    font-size: 20px;
+    padding: 14px;
+    font-size: 18px;
     width: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
-    margin-top:20px;
+    margin-top: 20px;
+    margin-right: 0.25em;
     border-radius: 2px;
+   // border: 1px solid white;
+   // border-color:#A04343;
 }
 
 .fa:hover {
@@ -18,7 +22,11 @@
 
 
 .fa-instagram {
-    background: #125688;
+    background: #E73C5C;
+    color: white;
+}
+.fa-medium {
+    background: black;
     color: white;
 }
 
@@ -48,13 +56,15 @@
 }
 .large-title {
     font-family: 'Saira Semi Condensed', sans-serif;
-    font-size: 44px;
+    font-size: 32px;
     font-weight: 700;
-    margin-bottom:1em;
+    margin-bottom:0.75em;
     padding-left:10px;
 }
 
-
+.col {
+    padding-right:2em;
+}
 .profile-pic {
    width:100px;
    height:100px;
@@ -64,6 +74,7 @@
 
 .col-effect {
     border: 2px solid white;
+
   
 }
     .col-effect:hover {
@@ -72,41 +83,60 @@
         border-style:dotted;
     }
 
-.paragraph-profile {
+.profile-paragraph {
     font-family: 'Merriweather', serif;
-    font-size: 16px;
+    font-size: 32px;
     font-weight: 400;
-    color: #525257;
-    margin-top:1em;
-    width:330px;
+    color: white;
+    opacity:0.8;
+    margin-top: 0.5em;
+    width: 400px;
+    padding-left:1em;
+    margin-bottom:0;
 }
+.profile-title {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    width: 50vw;
+    color: white;
+    line-height: 70px;
+    margin-bottom: 0.5em;
+
+}
+
+
 .paragraph {
     font-family: 'Merriweather', serif;
     font-size: 16px;
-    font-weight: 400;
-    color: #525257;
-    width: 330px;
+    font-weight: 300;
+    color: #645D5D;
+    width: 300px;
 }
 
 .project-title {
     font-family: 'Saira Semi Condensed', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 0.25em;
 }
 .project-overhead {
     font-family: 'Saira Semi Condensed', sans-serif;
-    font-size: 16px;
-    letter-spacing:1px;
-    margin-bottom:0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
     font-weight: 400;
-    opacity:0.66;
-    color: #3C3C3E;
+    opacity: 0.66;
+    color: #645D5D;
 }
 
 .project-pic {
     width: 70px;
     height: 110px;
     margin-right: 1em;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
+}
+
+.last-project {
+    margin-bottom:5em;
 }
