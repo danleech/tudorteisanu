@@ -1,5 +1,7 @@
 ﻿$(window).ready(function () {
 
+
+
     var wHeight = $(window).height();
 
     $('.slide')
@@ -10,8 +12,9 @@
                 var bgColor = elem.data('background');
 
                 $('body').css('background-color', bgColor);
-
             }
         });
+
+   
 
 });
